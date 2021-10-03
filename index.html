@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/34ad5b1e82.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mondara Thotage</title>
+  </head>
+
+  <header class="header">
+    <!-- NAV BAR -->
+    <nav class="header__nav">
+      <h1 class="header__nav__logo">
+        <a class="links" href="https://github.com/Mondara" target="_blank"
+          >MT.</a
+        >
+      </h1>
+
+      <div class="nav__links">
+        <div class="desktop__nav">
+          <ul class="header__nav__links links">
+            <li>
+              <a class="underline-animation" href="#projects">projects</a>
+            </li>
+            <li><a class="underline-animation" href="#skills">skills</a></li>
+            <li><a class="underline-animation" href="#contact">contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn--night-mode night">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button type="button" class="btn btn--night-mode deactive day">
+            <i class="fas fa-sun"></i>
+          </button>
+        </div>
+
+        <div class="mobile__nav">
+          <button type="button" class="btn btn--bars">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <div class="mobile__nav__list deactive">
+            <ul class="header__nav__links links center-column mobile">
+              <li>
+                <a class="underline-animation" href="#projects">projects</a>
+              </li>
+              <li><a class="underline-animation" href="#skills">skills</a></li>
+              <li>
+                <a class="underline-animation" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <section class="header__header">
+      <h1 class="header__header__title">
+        Hi, I am <span class="header__header__name">Mondara Thotage.</span>
+      </h1>
+      <h2>A Programmer | A Engineer </h2>
+      <p>
+        Hi and Welcome to my website. As you may have guessed, my name is
+        Mondara Thotage. I am a graduate engineer and self-taught programmer
+        with a passion for learning, building, and problem-solving.
+      </p>
+      <div class="header__header__links center">
+        <a class="btn btn-background-slide">resume</a>
+        <a
+          class="underline-animation"
+          aria-label="github link"
+          href="https://github.com/Mondara"
+          target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          class="underline-animation"
+          aria-label="linkedin link"
+          href="https://www.linkedin.com/in/mondara-thotage/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </section>
+  </header>
+
+  <body>
+    <!-- PROJECT CARDS -->
+    <section id="projects" class="section center-column">
+      <div class="projects__title">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project__cards">
+        <div class="project__card center-column">
+          <h3 class="project__card__title">Covid 19 Tracker</h3>
+          <p class="project__card__discription">
+            A Covid 19 Tracker built-in React that gives live global and
+            country-specific information. Live information is fetched from Open
+            Disease Data API.
+          </p>
+          <div class="project__card__technologies">
+            <ul class="project__card__technologies__list">
+              <li>React</li>
+              <li>CSS</li>
+              <li>Open Diease API</li>
+            </ul>
+          </div>
+          <div class="project__card__external-links">
+            <a
+              class="underline-animation"
+              aria-label="source code repository"
+              href="https://github.com/Mondara/covid-19_tracker"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="underline-animation"
+              aria-label="site live link"
+              href="https://covid19-tracker-67.netlify.app/"
+              target="_blank"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project__card center-column">
+          <h3 class="project__card__title">Jamming</h3>
+          <p class="project__card__discription">
+            A project built as part of Codecademy's Front End Engineer Course.
+            The website allows users to search the Spotify library, create a
+            custom playlist, then save it to their Spotify account.
+          </p>
+          <div class="project__card__technologies">
+            <ul class="project__card__technologies__list">
+              <li>React</li>
+              <li>CSS</li>
+              <li>Spotify API</li>
+            </ul>
+          </div>
+          <div class="project__card__external-links">
+            <a
+              class="underline-animation"
+              aria-label="source code repository"
+              href="https://github.com/Mondara/Jamming"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="underline-animation"
+              aria-label="site live link"
+              href="https://jamming-reactapp.surge.sh/"
+              target="_blank"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project__card center-column">
+          <h3 class="project__card__title">Flash Cards</h3>
+          <p class="project__card__discription">
+            This is a Flash Card Style Quiz App Built in React, and is part a
+            practice project from Codecademy's Front End Engineer Course. Users
+            will be able to create their own topics, quizzes for those topics,
+            and flashcards for those quizzes.
+          </p>
+          <div class="project__card__technologies">
+            <ul class="project__card__technologies__list">
+              <li>React</li>
+              <li>Redux</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="project__card__external-links">
+            <a
+              class="underline-animation"
+              aria-label="source code repository"
+              href="https://github.com/Mondara/Flash-Cards"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="underline-animation"
+              aria-label="site live link"
+              href="https://flashcards-quizz-game.netlify.app/"
+              target="_blank"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section center-column">
+      <h2>Skills</h2>
+      <ul class="skills__list links">
+        <li class="btn btn__skills">HTML</li>
+        <li class="btn btn__skills">CSS</li>
+        <li class="btn btn__skills">JavaScript</li>
+        <li class="btn btn__skills">Python</li>
+        <li class="btn btn__skills">TypeScript</li>
+        <li class="btn btn__skills">React</li>
+        <li class="btn btn__skills">Redux</li>
+        <li class="btn btn__skills">Git</li>
+        <li class="btn btn__skills">Bootstrap</li>
+        <li class="btn btn__skills">Material UI</li>
+        <li class="btn btn__skills">Jest</li>
+        <li class="btn btn__skills">Enzyme</li>
+      </ul>
+    </section>
+    <section id="contact" class="section center-column contact">
+      <h2>CONTACT</h2>
+      <a
+        href="mailto:mondara.t@hotmail.com"
+        class="btn btn-background-slide links"
+        >email me</a
+      >
+    </section>
+    <footer>
+      <p>Created by <span>Mondara Thotage</span></p>
+    </footer>
+    <script>
+      const nightMode = document.querySelector(".btn.night");
+      const dayMode = document.querySelector(".btn.day");
+      const root = document.documentElement;
+
+      const navBarMobileBtn = document.querySelector(".mobile__nav .btn");
+      const navBarMobileList = document.querySelector(".mobile__nav__list");
+      const navBarMobileIcon = document.querySelector(".fas.fa-bars");
+
+      nightMode.addEventListener("click", () => {
+        nightMode.classList.toggle("deactive");
+        dayMode.classList.toggle("deactive");
+
+        root.style.setProperty("--primary-color", "#90a0d9");
+        root.style.setProperty("--heading-color", "#cdcdff");
+        root.style.setProperty("--text-color", "#bdbddd");
+        root.style.setProperty("--bg-color", "#23283e");
+      });
+
+      dayMode.addEventListener("click", () => {
+        nightMode.classList.toggle("deactive");
+        dayMode.classList.toggle("deactive");
+
+        root.style.setProperty("--primary-color", "#33417f");
+        root.style.setProperty("--heading-color", "#444");
+        root.style.setProperty("--text-color", "#555");
+        root.style.setProperty("--bg-color", "#fcfcfc");
+      });
+
+      navBarMobileBtn.addEventListener("click", () => {
+        navBarMobileList.classList.toggle("deactive");
+        navBarMobileIcon.classList.toggle("fa-bars--active");
+      });
+    </script>
+  </body>
+</html>
