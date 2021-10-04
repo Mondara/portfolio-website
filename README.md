@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![]('./Website Demo/Portfolio Website.gif')
 
 ### Links
 
