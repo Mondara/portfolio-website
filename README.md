@@ -1,5 +1,5 @@
 # Portfolio Website
-This is a personal protfolio website I built, based on [rajshekhar26](https://github.com/rajshekhar26/cleanfolio-minimal).
+A Personal Portfolio Website I built, based on [rajshekhar26](https://github.com/rajshekhar26/cleanfolio-minimal).
 
 ## Table of contents
 
