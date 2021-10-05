@@ -239,8 +239,7 @@ p, li {
   transition: transform 250ms ease-in-out;
 }
 
-.btn.btn-background-slide:hover,
-.btn.btn-background-slide:focus {
+.btn.btn-background-slide:hover {
   color: white;
 }
 
