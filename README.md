@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![]('./Website Demo/Portfolio Website.gif')
+![](./Website%20Demo/Portfolio%20Website.gif)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://mondarathotage.com/)
+- Live Site URL: (https://mondarathotage.com/)
 
 ## My process
 
