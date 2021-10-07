@@ -266,7 +266,6 @@ p, li {
 }
 
 /* --- Project Cards --- */
-
 .project__cards {
   max-width: 80vw;
   margin: 2rem auto;
@@ -332,4 +331,8 @@ footer {
 footer span {
   font-weight: bold;
   color: var(--primary-color);
+}
+
+footer span.no-margin {
+  margin: 0;
 }
