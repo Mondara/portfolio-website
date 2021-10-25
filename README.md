@@ -54,7 +54,7 @@ I will also continue to update the website with new animation, layout, etc as I 
 
 - Website - [Mondara](https://mondarathotage.com/)
 - Linkedin - [@Mondara](https://www.linkedin.com/in/mondara-thotage/)
-- Github - [@Mondara](https://www.twitter.com/yourusername)
+- Github - [@Mondara](https://github.com/Mondara)
 
 
 ## Acknowledgments
