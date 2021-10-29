@@ -7,11 +7,22 @@
   padding: 0;
 }
 
+/* Light Mode */
 :root {
   --primary-color: #33417f;
   --bg-color: #fcfcfc;
   --heading-color: #444;
   --text-color: #555;
+}
+
+/* Dark Mode Perference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #90a0d9;
+    --heading-color: #cdcdff;
+    --text-color: #bdbddd;
+    --bg-color: #23283e;
+  }
 }
 
 body {
