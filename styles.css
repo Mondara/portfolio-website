@@ -30,18 +30,22 @@ body {
   background-color: var(--bg-color);
 }
 
-h1, h2, h3, footer {
-    color: var(--heading-color);
+h1,
+h2,
+h3,
+footer {
+  color: var(--heading-color);
 }
 
-p, li {
-    color: var(--text-color);
+p,
+li {
+  color: var(--text-color);
 }
 
 /* -- Icons -- */
 .fab,
 .fas {
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   color: var(--primary-color);
 }
 
@@ -131,8 +135,8 @@ p, li {
 }
 
 .header__nav__logo {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .header__nav__logo a,
@@ -159,24 +163,24 @@ p, li {
 /* -- Night Mode Button --*/
 .btn.btn--night-mode,
 .btn.btn--bars {
-    padding: 0;
-    margin: 0;
-    margin-left: 1rem;
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
 
-    background-color: transparent;
-    transform: translateY(0);
-    transition: transform 100ms linear; 
+  background-color: transparent;
+  transform: translateY(0);
+  transition: transform 100ms linear;
 }
 
 .btn.btn--night-mode:hover,
 .btn.btn--night-mode:focus,
 .btn.btn--bars:hover,
 .btn.btn--bars:focus {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .btn.btn--night-mode--deactive {
-    display: none;
+  display: none;
 }
 
 /* -- Mobile - Nav -- */
@@ -190,9 +194,9 @@ p, li {
 
 @media (max-width: 475px) {
   .mobile__nav {
-    display: flex
+    display: flex;
   }
-  
+
   .desktop__nav {
     display: none;
   }
@@ -221,8 +225,6 @@ p, li {
 .mobile li {
   margin-bottom: 1rem;
 }
-
-
 
 /* -- Header -- */
 .header__header {
