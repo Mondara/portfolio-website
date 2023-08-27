@@ -328,7 +328,7 @@ li {
 
 /* --- SKILLS -- */
 .skills__list {
-  max-width: 450px;
+  max-width: 500px;
 
   display: flex;
   justify-content: center;
